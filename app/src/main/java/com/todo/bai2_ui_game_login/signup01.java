@@ -44,18 +44,18 @@ public class signup01 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_signup01);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.signup01), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TextView viewText = findViewById(R.id.signup_terms);
-        String src = viewText.getText().toString();
-        ArrayList<String> spans = new ArrayList<>();
-        spans.add("Terms of Service");
-        spans.add("Privacy Policy");
-        int idColor = R.color.orange800;
-
-        linkText((View)viewText,src, spans, idColor, (View v) -> {} );
+//        TextView viewText = findViewById(R.id.signup_terms);
+//        String src = viewText.getText().toString();
+//        ArrayList<String> spans = new ArrayList<>();
+//        spans.add("Terms of Service");
+//        spans.add("Privacy Policy");
+//        int idColor = R.color.orange800;
+//
+//        linkText((View)viewText,src, spans, idColor, (View v) -> {} );
     }
 }
