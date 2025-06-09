@@ -4,6 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="error">#DE361F</color>
     <color name="warning">#F3AF00</color>
+    <color name="gray">#A4A4A4</color>
+
     <color name="violet">#A903D2</color>
     <color name="purple900">#410095</color>
 
